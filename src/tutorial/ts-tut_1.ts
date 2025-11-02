@@ -140,3 +140,58 @@ console.log(noreturn())
 // function noreturn(st: { name: string }) {
 //     return st.name
 // }
+
+//union types as func parameters
+
+function check4(input : (string | number)){
+    if (typeof input === "string") {
+        console.log(input.toUpperCase())
+    } else {
+        console.log(input*2)
+    }
+}
+
+console.log(check4(5))
+
+
+//object type annotations too
+
+function des({ id }: { id: number }) : {id : number, isActive : boolean} {
+    
+    return {id : id, isActive : id%2===0}
+}
+
+let answer = des({ id : 5})
+console.log(answer)
+
+
+function des2(student : {id : number, name : string}) : void{
+    
+    console.log(`${student.id} is here. Welcome ${student.name}`)
+}
+
+let student = {
+    id: 2,
+    name: "sanya" 
+}
+
+let answer2 = des2(student)
+console.log(answer2)
+
+
+//challenge
+
+function processData(input: (string | number),{reverse}: {reverse : boolean} = {reverse : false}) {
+    if (typeof input === "number") {
+        return input*input
+    }
+    if (typeof input === "string" && reverse === true) {
+        return input.split("").reverse().join("").toUpperCase()
+    }
+    return input.toUpperCase()
+}
+
+let answer3 = processData(5)
+let answer4 = processData("hello hi")
+let answer5 = processData("hello hi",{reverse : true})
+console.log(answer3, answer4, answer5)
