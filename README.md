@@ -35,16 +35,49 @@ Finally, I learned about **type predicates**, which help TypeScript understand s
 
 ---
 
-## Concepts Covered So Far
-- Type Annotations  
-- Functions  
-- Objects  
-- Type Aliases  
-- Interfaces (Merging & Reopening)  
-- Union & Intersection Types  
-- Type Narrowing (`typeof`, `in`)  
-- Type Predicates / User-Defined Type Guards  
+### 📅 **Day 3 — Tuples, Enums, Type Assertions, Unknown & Never Types, and Modules**
+
+**Topics Covered**
+
+* **Tuples**
+* **Enums**
+* **Type Assertions**
+* **`any` vs `unknown`**
+* **`never` type**
+* **Type-safe exhaustive checking**
+* **Modules (`import` / `export`)**
 
 ---
+
+**Summary**
+
+On the third day, I explored more advanced **TypeScript** features.
+I learned how **tuples** allow fixed-length arrays with specific types for each position and how the `readonly` modifier can make them immutable.
+I studied **enums**, which provide meaningful names for sets of constant values, and understood how **exhaustive checking** with the `never` type ensures all enum cases are handled safely.
+Through **type assertions**, I learned to explicitly tell TypeScript what type a value should be when the compiler cannot infer it — useful when working with enums or APIs.
+I also explored the difference between **`any`** and **`unknown`**, realizing that `unknown` is a safer, more type-checked alternative to `any`.
+Finally, I learned how to structure code using **modules**, by importing and exporting types, variables, and functions between files.
+
+---
+
+#### 🧾 **Concepts Covered So Far**
+
+* **Type Annotations**
+* **Functions**
+* **Objects**
+* **Type Aliases**
+* **Interfaces (Merging & Reopening)**
+* **Union & Intersection Types**
+* **Type Narrowing (`typeof`, `in`)**
+* **Type Predicates / User-Defined Type Guards**
+* **Tuples**
+* **Enums**
+* **Type Assertions (`as`)**
+* **`any` vs `unknown`**
+* **`never` type and Exhaustive Checking**
+* **Modules (`import` / `export`)**
+
+---
+
 
 
