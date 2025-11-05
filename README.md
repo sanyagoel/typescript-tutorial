@@ -81,6 +81,33 @@ Finally, I began **Generics**, understanding how to write reusable components th
 
 ---
 
+## 📅 **Day 5 — Fetch API, Zod Validation, Type Declarations, and Classes**
+
+**Topics Covered**
+
+* **Fetch API with async/await**
+* **Zod runtime validation (`safeParse`, `.array()`)**
+* **Type inference using `z.infer`**
+* **Error handling with `instanceof Error`**
+* **Type declaration files (`@types` usage)**
+* **`bcryptjs` type definitions and autocompletion**
+* **Class basics (constructors, properties, methods)**
+* **Access modifiers (`public`, `private`, `readonly`)**
+* **Getters and Setters in classes**
+* **Interface implementation in classes**
+
+---
+
+**Summary**
+On the fifth day, I learned how to work with **APIs** using `fetch` and **async/await** in TypeScript.
+I explored the **Zod** library for **runtime data validation**, learning how to validate both single objects and arrays of objects using `.array()` and `safeParse`.
+I also saw how to infer types directly from a Zod schema using `z.infer`, ensuring consistency between runtime and compile-time validation.
+I revisited **error handling**, using `instanceof Error` to distinguish real errors from unknown ones.
+Next, I learned about **type declaration files** like `@types/bcryptjs`, which provide IntelliSense, autocompletion, and compile-time checks for external libraries.
+Finally, I studied **classes in TypeScript**, including how to declare and initialize properties, use **access modifiers**, create **getters/setters**, and make classes **implement interfaces** — something `type` aliases cannot do.
+
+---
+
 ### 🧾 **Concepts Covered So Far**
 
 * **Type Annotations**
@@ -102,6 +129,9 @@ Finally, I began **Generics**, understanding how to write reusable components th
 * **`instanceof` Guards**
 * **Discriminated Unions**
 * **Generics (Constraints & Defaults)**
+* **Fetch API with async/await**
+* **Zod Runtime Validation**
+* **Type Declarations (`@types`)**
+* **Classes (Access Modifiers, Getters/Setters, Interface Implementation)**
 
 ---
-
