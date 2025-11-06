@@ -108,6 +108,35 @@ Finally, I studied **classes in TypeScript**, including how to declare and initi
 
 ---
 
+## 📅 **Day 6 — DOM Manipulation, Type Casting & Local Storage**
+
+**Topics Covered**
+
+* **Selecting DOM elements using `querySelector`**
+* **Element types (`HTMLElement`, `HTMLButtonElement`, `HTMLFormElement`, etc.)**
+* **Handling `null` with optional chaining (`?.`), non-null assertion (`!`), and conditional checks**
+* **Type casting using `as`**
+* **Using generic form of `querySelector<T>()` for better element inference**
+* **Accessing element-specific properties and methods**
+* **Creating and appending HTML elements dynamically**
+* **Working with event listeners and `Event` type safety**
+* **Managing application state using arrays and custom `Task` types**
+* **Using `localStorage` to persist data**
+* **Converting data using `JSON.stringify()` and `JSON.parse()`**
+* **Rendering tasks dynamically with DOM manipulation**
+
+---
+
+**Summary**
+On the sixth day, I learned how to safely interact with the **DOM using TypeScript**, understanding how TypeScript assigns types like `HTMLElement | null` when selecting elements.
+I practiced using **optional chaining (`?.`)**, **non-null assertions (`!`)**, and **type casting (`as`)** to safely access element properties and methods.
+I discovered how to make `querySelector` more powerful using its **generic form**, such as `querySelector<HTMLButtonElement>()`, to gain access to element-specific methods like `.click()` and `.disabled`.
+I then applied these concepts to build a **Task Manager app**, dynamically creating elements (`<li>`, `<span>`, `<input>`) and appending them to the DOM.
+I also learned to handle form submissions safely using TypeScript’s `Event` type and used **localStorage** to save, retrieve, and update tasks with proper JSON handling.
+This helped me connect everything — **TypeScript + DOM manipulation + real-world browser APIs** — in a practical mini-project.
+
+---
+
 ### 🧾 **Concepts Covered So Far**
 
 * **Type Annotations**
@@ -133,5 +162,8 @@ Finally, I studied **classes in TypeScript**, including how to declare and initi
 * **Zod Runtime Validation**
 * **Type Declarations (`@types`)**
 * **Classes (Access Modifiers, Getters/Setters, Interface Implementation)**
+* **DOM Manipulation with TypeScript**
+* **Type Casting and Non-null Assertions**
+* **Event Handling and Local Storage Integration**
 
 ---
