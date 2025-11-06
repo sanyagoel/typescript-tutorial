@@ -1,0 +1,85 @@
+body{
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.parentContainer{
+background-color: white;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.184);
+    width: 100%;
+}
+
+.head{
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(204, 124, 137);
+}
+
+.miniParent{
+    display: flex;
+    width: 100%;
+    
+}
+
+input.form-input{
+    border: 0.5px solid rgba(128, 128, 128, 0.377);
+    border-radius: 3px;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    width: 100%;
+    }
+
+button{
+    border:none;
+    background-color: rgb(243, 179, 245);
+    padding-left : 1rem;
+    padding-right: 1rem;
+    border-radius: 2px;
+    padding-top: 0.7em;
+    padding-bottom: 0.7rem;
+    width: 20%;
+}
+
+button:hover{
+    background-color: rgb(178, 123, 190);
+}
+
+.ultimateContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 40%;
+    align-items: flex-start;
+
+}
+
+ul{
+    width: 100%;
+    padding: 0;
+}
+
+li{
+    width: 100%;
+    list-style: none;
+    background-color: rgb(236, 131, 192);
+    padding: 5px;
+    border-radius: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between; 
+}
+
