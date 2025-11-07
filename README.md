@@ -139,6 +139,18 @@ This helped me connect everything — **TypeScript + DOM manipulation + real-wor
 
 ## 📅 **Day 7 — React + TypeScript: Props, State & JSX**
 
+### **Running the Nested React Project**
+
+**Command:**
+
+```bash
+npm run dev --prefix ./typescript-react/typescript-react-tutorial
+```
+
+**Why:**
+Because the React project (`typescript-react-tutorial`) is **inside another folder** (`typescript-react`).
+Using the `--prefix` flag tells `npm` to look for the `package.json` inside that inner directory instead of the outer one — ensuring Vite runs the correct project.
+
 **Topics Covered**
 
 * **Setting up a React + TypeScript project using Vite**
