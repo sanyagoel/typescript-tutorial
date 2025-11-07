@@ -137,6 +137,35 @@ This helped me connect everything — **TypeScript + DOM manipulation + real-wor
 
 ---
 
+## 📅 **Day 7 — React + TypeScript: Props, State & JSX**
+
+**Topics Covered**
+
+* **Setting up a React + TypeScript project using Vite**
+* **Understanding `.tsx` files and JSX syntax in TypeScript**
+* **Typing functional components with `JSX.Element` and `React.FC`**
+* **Using `PropsWithChildren` to automatically add the `children` prop**
+* **Understanding `verbatimModuleSyntax` and type-only imports (`import type {...}`)**
+* **Declaring and typing component props explicitly**
+* **Using React Hooks with TypeScript (`useState`, `useEffect`)**
+* **Inferring vs Explicitly typing `useState` generics**
+* **Managing arrays and object states with strong typing**
+* **Updating array states immutably using the spread operator**
+* **Handling nested state and preventing type inference issues (`never[]`)**
+* **Fixing type errors caused by `verbatimModuleSyntax`**
+* **Exploring type-safe event handlers in React**
+
+---
+
+**Summary**
+On the seventh day, I learned how to combine **React** with **TypeScript** to create strongly-typed components and manage state safely.
+I explored how TypeScript understands **JSX**, why newer versions of React require explicit imports for JSX types, and how `PropsWithChildren` simplifies working with components that accept child elements.
+I practiced using **`useState`** with various data types — strings, arrays, and objects — and saw how TypeScript infers or enforces specific types based on initial values and generic arguments.
+I also learned about **type-only imports** enforced by `verbatimModuleSyntax`, and how to structure imports properly in modern TypeScript configurations.
+Finally, I built small examples involving props, typed state, and event handlers, improving my understanding of **type safety within React components**.
+
+---
+
 ### 🧾 **Concepts Covered So Far**
 
 * **Type Annotations**
@@ -165,5 +194,10 @@ This helped me connect everything — **TypeScript + DOM manipulation + real-wor
 * **DOM Manipulation with TypeScript**
 * **Type Casting and Non-null Assertions**
 * **Event Handling and Local Storage Integration**
+* **React + TypeScript Basics**
+* **JSX & Props Typing**
+* **`useState` with Generics**
+* **`PropsWithChildren` and Type-Only Imports**
 
 ---
+
